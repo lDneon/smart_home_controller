@@ -51,12 +51,16 @@
             IsPoweredOn = false;
         }
 
+
+        public abstract string GetStatus();
+
         public virtual void ApplyMode(string mode)
         {
             // Default: do nothing. Subclasses override.
         }
 
-        public abstract string GetStatus();
+
+
     }
 }
 

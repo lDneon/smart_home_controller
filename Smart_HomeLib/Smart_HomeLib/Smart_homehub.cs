@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Smart_HomeLib
 {
-    internal class Smart_homehub
+    public class Smart_homehub
     {
         private readonly List<iot_device> _devices = new();
 
